@@ -1,7 +1,7 @@
 package upload
 
 import (
-	"github.com/codeclimate/test-reporter/formatters"
+	"github.com/alexandre-normand/test-reporter/formatters"
 )
 
 type SourceFile struct {

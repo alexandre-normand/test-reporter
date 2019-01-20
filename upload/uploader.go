@@ -16,8 +16,8 @@ import (
 	"time"
 
 	"github.com/Sirupsen/logrus"
-	"github.com/codeclimate/test-reporter/formatters"
-	"github.com/codeclimate/test-reporter/version"
+	"github.com/alexandre-normand/test-reporter/formatters"
+	"github.com/alexandre-normand/test-reporter/version"
 	"github.com/pkg/errors"
 )
 

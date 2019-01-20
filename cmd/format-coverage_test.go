@@ -3,7 +3,7 @@ package cmd
 import (
 	"testing"
 
-	"github.com/codeclimate/test-reporter/formatters/clover"
+	"github.com/alexandre-normand/test-reporter/formatters/clover"
 	"github.com/stretchr/testify/require"
 )
 

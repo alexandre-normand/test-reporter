@@ -3,7 +3,7 @@ package gcov
 import (
 	"testing"
 
-	"github.com/codeclimate/test-reporter/formatters"
+	"github.com/alexandre-normand/test-reporter/formatters"
 	"github.com/stretchr/testify/require"
 )
 

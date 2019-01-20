@@ -3,7 +3,7 @@ package upload
 import (
 	"time"
 
-	"github.com/codeclimate/test-reporter/formatters"
+	"github.com/alexandre-normand/test-reporter/formatters"
 )
 
 func NewTestReport(rep formatters.Report) *TestReport {

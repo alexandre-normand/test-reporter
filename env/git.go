@@ -135,6 +135,13 @@ func fallbackBlob(path string) (string, error) {
 	file, err := ioutil.ReadFile(path)
 
 	if err != nil {
+		slashIndex := strings.Index(path, "/")
+		path = path[slashIndex+1:]
+		logrus.Debugf("[with-hack] getting fallback blob_id for source file %s", path)
+		file, err = ioutil.ReadFile(path)
+	}
+
+	if err != nil {
 		logrus.Errorf("failed to read file %s\n%s", path, err)
 		return "", errors.WithStack(err)
 	}

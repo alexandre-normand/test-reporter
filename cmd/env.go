@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/codeclimate/test-reporter/env"
+	"github.com/alexandre-normand/test-reporter/env"
 	"github.com/spf13/cobra"
 )
 

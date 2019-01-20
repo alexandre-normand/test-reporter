@@ -5,7 +5,7 @@ import (
 
 	"gopkg.in/src-d/go-git.v4/plumbing/object"
 
-	"github.com/codeclimate/test-reporter/env"
+	"github.com/alexandre-normand/test-reporter/env"
 	"github.com/stretchr/testify/require"
 )
 

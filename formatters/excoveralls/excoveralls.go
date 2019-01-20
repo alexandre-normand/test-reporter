@@ -6,8 +6,8 @@ import (
 	"strings"
 
 	"github.com/Sirupsen/logrus"
-	"github.com/codeclimate/test-reporter/env"
-	"github.com/codeclimate/test-reporter/formatters"
+	"github.com/alexandre-normand/test-reporter/env"
+	"github.com/alexandre-normand/test-reporter/formatters"
 	"github.com/pkg/errors"
 )
 
@@ -64,7 +64,7 @@ func (r Formatter) Format() (formatters.Report, error) {
 }
 
 type jsonSourceFile struct {
-	Name     string              `json:"name,attr"`
+	Name     string               `json:"name,attr"`
 	Coverage []formatters.NullInt `json:"coverage,attr"`
 }
 
